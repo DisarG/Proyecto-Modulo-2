@@ -1,0 +1,448 @@
+/* Font Robot*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap");
+
+/* Font Righteous*/
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.btn-list{
+  display: none;
+}
+
+.content-list {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  margin: 50px 50px 50px 65px;
+}
+
+.text-search {
+  text-align: center;
+  margin: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: #c4c4c4;
+}
+.text-search-two {
+  margin: 40px 0px 0px 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #c4c4c4;
+}
+.text-search-two-l {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  color: #c4c4c4;
+}
+
+.linea {
+  border: 1px solid #e5e5e5;
+  margin-right: 10px;
+  
+}
+
+.table-list {
+  background: white;
+  margin: 50px 0px 30px 0px;
+  padding: 20px 0px 0px 12px;
+}
+
+.table-list-two {
+  background: white;
+  margin: 0px 0px 80px 13px;
+  padding: 20px 0px 0px 12px;
+}
+
+.text-table {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: #009688;
+}
+.text-table-two {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: #009688;
+}
+
+th {
+  padding: 10px 140px 10px 0px;
+}
+
+.input-table {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f002";
+  font-size: 20px;
+  line-height: 24px;
+  
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #E5E5E5;
+  letter-spacing: 0.15px;
+}
+
+.input-table-c {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f002";
+      color: rgb(204, 202, 202);
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 40%;
+  border: 1px solid #E5E5E5;
+  letter-spacing: 0.15px;
+}
+
+.icon {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  cursor: pointer;
+  color: #F50057;
+  font-size: 30px;
+  background: white;
+  display: flex;
+  background-color: white;
+  border: none;
+  margin-left: 15px;
+}
+.icon:hover {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: #009688;
+  font-size: 30px;
+  background: white;
+  display: flex;
+  background-color: white;
+  border: none;
+  margin-left: 15px;
+}
+
+.text-td{
+  margin-left: 100px;
+}
+
+th{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.15px;
+}
+
+
+
+td{
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 10px 0px 10px 0px;
+  letter-spacing: 0.1px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.table th{
+  
+  border-bottom: 1px solid #e5e5e5;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.like{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: black;
+  font-size: 20px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.icon-deslike{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  cursor: pointer;
+  color: black;
+  transform: rotate(180deg);
+  font-size: 20px;
+  background: white;
+  background-color: white;
+  padding-right: 5px;
+  border:  none;
+
+}
+.icon-deslike:hover {
+  color: rgb(255, 0, 0);
+}
+.like:hover {
+  color: #009688;
+}
+
+
+@media only screen and (max-width: 414px){
+
+  .btn-list{
+    margin-left: 20px;
+    display: none;
+  }
+  
+  .content-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px 0px 40px;
+  }
+  
+  .text-search {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    margin: 0px 95px 0px 0px;
+    color: #c4c4c4;
+  }
+
+
+  .linea {
+    border: 1px solid #e5e5e5;
+    margin-right: 10px;
+    display: none;
+    
+  }
+
+  p::first-letter{
+    text-transform: capitalize;
+  }
+  
+ 
+  .text-table {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #009688;
+  }
+  .text-table-two {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #009688;
+  }
+  
+  th {
+    padding: 10px 80px 0px 0px;
+    width: 100%;
+  }
+
+  .table-list {
+    background: white;
+    margin: 25px 15px 50px 50px;
+    padding: 0;
+  }
+  
+  .table-list-two {
+    background: white;
+    margin: 25px 15px 50px 50px;
+    padding: 0;
+  }
+  
+
+  .eliminar-mob{
+    display: none;
+  }
+  
+
+
+  
+  .icon {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    cursor: pointer;
+    color: #F50057;
+    font-size: 30px;
+    background: white;
+    display: flex;
+    background-color: white;
+    border: none;
+    margin-left: 15px;
+  }
+  .icon:hover {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #009688;
+    font-size: 30px;
+    background: white;
+    display: flex;
+    background-color: white;
+    border: none;
+    margin-left: 15px;
+  }
+  
+  .text-td{
+    margin-left: 100px;
+  }
+  
+  th{
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  }
+  
+  
+  
+  td{
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 10px 0px 10px 0px;
+    letter-spacing: 0.1px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .table th{
+    
+    border-bottom: 1px solid #e5e5e5;
+    border-collapse: collapse;
+    margin: 0;
+  }
+  
+  .like{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    background: white;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .icon-deslike{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    transform: rotate(180deg);
+    font-size: 20px;
+    background: white;
+    background-color: white;
+    padding-right: 5px;
+    border:  none;
+  
+  }
+  .icon-deslike:hover {
+    color: rgb(255, 0, 0);
+  }
+  .like:hover {
+    color: #009688;
+  }
+
+  .input-table {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(204, 202, 202);
+    content: "\f002";
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px 25px 10px 10px;
+    width: 80%;
+    border: 1px solid #E5E5E5;
+    letter-spacing: 0.15px;
+  }
+    
+  .input-table-c {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(204, 202, 202);
+    content: "\f002";
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px 25px 10px 8px;
+    width: 80%;
+    margin-right: 37px;
+    border: 1px solid #E5E5E5;
+    letter-spacing: 0.15px;
+  }
+
+  .text-search-two {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #c4c4c4;
+  }
+  .text-search-two-l {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    padding-bottom: 10px;
+    color: #c4c4c4;
+  }
+  .div-mob{
+    background: #FFFFFF;    
+    border: 2px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 20px 95px 0px 0px;
+  }
+
+}

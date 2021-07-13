@@ -1,0 +1,66 @@
+/* Font Robot*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+/* Font Righteous*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-main-p {
+    display: flex;
+    flex-direction: row;
+    background: #009688;
+    justify-content: space-between;
+    padding: 17px;
+}
+
+.icon-play{
+    width: 40px;
+}
+
+.title-nav-p{
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+text-decoration: none;
+margin-right: 50%;
+line-height: 40px;
+color: white;
+    
+}
+
+@media only screen and (max-width: 414px){
+
+
+.nav-main-p {
+    display: flex;
+    flex-direction: row;
+    background: #009688;
+    justify-content: space-between;
+    padding: 17px;
+}
+
+.icon-play{
+    width: 40px;
+}
+
+.title-nav-p{
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+text-decoration: none;
+margin-right: 50%;
+line-height: 40px;
+color: white;
+display: none;
+    
+}
+
+}
+
+

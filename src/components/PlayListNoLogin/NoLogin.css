@@ -1,0 +1,113 @@
+/* Font Robot*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+/* Font Righteous*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(245, 244, 244);
+}
+.container-NoLog{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 53%;
+    align-items: center;
+    margin: 10% 25%;
+    padding: 25px 25px 25px 0px;
+    background: rgb(255, 255, 255);
+}
+.candado-error{
+    width: 270px;
+}
+.text-error{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.15px;
+color: #333333;
+}
+.text-auth{
+ text-align: center;
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 30px;
+ text-align: center;
+ letter-spacing: 0.15px;
+ color: #333333;
+}
+
+@media only screen and (max-width: 414px){
+
+body{
+    background: white;
+}
+
+.container-NoLog{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+.candado-error{
+    width: 270px;
+}
+.text-error{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.15px;
+color: #333333;
+
+}
+
+
+.error-mmm{
+    display: none;
+}
+
+h1::first-letter{
+    text-transform:capitalize;
+    font-size: 36px;
+}
+
+.text-auth{
+ text-align: center;
+ font-family: Roboto;
+ padding-top: 20px;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 18px;
+ line-height: 30px;
+ text-align: center;
+ letter-spacing: 0.15px;
+ color: #333333;
+}
+}
